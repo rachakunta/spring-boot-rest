@@ -28,7 +28,7 @@ public class TopicService {
     }
 
     public void update(Topic topic, String id) {
-
+        topicRepository.save(topic);
     }
 
     public void delete(String id) {
